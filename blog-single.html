@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROMETEO</title>
+    <link rel="icon" href="assets/img/logo0000.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- contenedor header -->
+    <header>
+      <nav class="navbar navbar-expand-lg  fixed-top bg-gris">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="assets/img/lista0000.png" alt="">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ofertas">Ofertas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Contactenos">Contactános</a>
+                  </li>
+                  <li class="nav-item">
+                                              <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#buscarModal">
+                      <img src="assets/img/buscar.png" alt="buscar">
+                       </button>
+                  
+                                              <!-- Modal -->
+                       <div class="modal fade" id="buscarModal" tabindex="-1" aria-labelledby="buscarModalLabel" aria-hidden="true">
+                           <div class="modal-dialog">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                     <h5 class="modal-title" id="buscarModalLabel"> <b>Buscar</b> </h5>
+                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                 <span aria-hidden="true">&times;</span>
+                               </button>
+                             </div>
+                         <div class="modal-body">
+                          <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn  my-2 my-sm-0 buscar" type="submit">Buscar</button>
+                          </form>
+                            </div>
+                                </div>
+                                </div>
+                        </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="assets/img/carrito-de-compras.png" alt="carrito de compras"></a>
+                  </li>
+                  <li class="nav-item">
+                      <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#usuarioModal">
+                          <img src="assets/img/usuario.png" alt="usurio">
+                        </button>
+
+                        <!-- Modal -->
+                      <div class="modal fade" id="usuarioModal" tabindex="-1" aria-labelledby="usuarioModalLabel" aria-hidden="true">
+                         <div class="modal-dialog">
+                           <div class="modal-content">
+                             <div class="modal-header">
+                                <h5 class="modal-title" id="usuarioModalLabel"> <b>Usuario</b> </h5>
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                             <a href=""><u>Iniciar sesion</u></a><br>
+                             <a href=""><u>Crea tu cuenta</u></a>
+                     </div>
+                         <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                           </div>
+                       </div>
+                     </div>
+                        </div>
+                   </li>
+                 </ul>
+              </div>
+        </div>
+          </nav>
+          <div id="carouselprometeoCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselprometeoCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselprometeoCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselprometeoCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/fondo0000.jpg" class="d-block w-100" alt="slider 1">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/fondo20000.jpg" class="d-block w-100" alt="slider 2">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/fondo30000.jpg" class="d-block w-100" alt="slider 3">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="texto-flotante">
+            <h5>El presio del éxito es trabajar duro por eso en Prometeo <br>trabajamos duro para que compres y vendas <br> sin intermediarios y las ganancias sean tuyas</h5>
+                  <button type="button">Empecemos <img src="assets/img/flecha-correcta.png" alt=""></button>
+          </div>
+
+    </header>
+
+<!-- contenedor servicios -->
+    <section id="servicios">
+      <div class="container">
+         <h2><b> Servicios</b></h2>
+        <h4>Puedes escoger entre <b>Comprar</b> o <b>Vender</b></h4>
+         <div class="row">
+           <div class="col-md-4">
+            <img src="assets/img/vender0000.png" alt="vender">
+           </div>
+           <div class="col-md-8">
+             <p><b>Vender</b> en prometeo puedes ofrecer tus productos <br> directamente a los clientes finales</p>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-md-8">
+              <p><b>Comprar</b> todo lo que siempre has querido ahora <br>y con los mejores precios por eso <br>en prometeo te ayudamos a tener contacto directo <br> con los proveedores</p>
+           </div>
+           <div class="col-md-4">
+             <img src="assets/img/comprar0000.png" alt="comprar"> 
+           </div>
+         </div>
+      </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+<!-- contenedor de ubicacio -->
+
+      <div class="ubicacion">
+        <div class="container">
+          <div class="text">
+           <h3>Ubicación</h3>
+            <p>Cansado de no saber en donde encontrar <br> tus productosen Prometeo te damos la ubicacion <br> de los productos y proveedores <br>mas cercanos</p>  
+          </div>
+        </div>
+      </div>
+  
+
+
+    
+
+
+
+    
+
+<!-- contenedor de ofertas  -->
+
+        <div id="ofertas">
+        <div class="container">
+<div class="row">
+  <div class="col-md-7">
+    <p>OFERTAS</p>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="Moda" role="tabpanel" aria-labelledby="Moda-tab">
+        <p>MODA</p>
+        <div id="carouselprometeoInterval" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="10000">
+            
+              <img src="assets/img/ropa1.jpg" class="d-block w-100" alt="ropa1">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <img src="assets/img/ropa2.jpg" class="d-block w-100" alt="ropa2">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/ropa3.jpg" class="d-block w-100" alt="ropa3">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="tab-pane fade" id="Agricultura" role="tabpanel" aria-labelledby="Agricultura-tab">
+        <p>AGRICULTURA</p>
+        <div id="carouseprometeoInterval" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="10000">
+              <img src="assets/img/agricultura 1.jpg" class="d-block w-100" alt="agricutura1">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <img src="assets/img/agricultura2.jpg" class="d-block w-100" alt="agricultura2">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/agricultura 3.jpg" class="d-block w-100" alt="agricultura3">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="Tecnologia" role="tabpanel" aria-labelledby="Tecnologia-tab">
+        <p>TECNOLOGIA</p>
+        <div id="carouselprometeoInterval" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="10000">
+              <img src="assets/img/tecnologia1.jpg" class="d-block w-100" alt="tecnologia1">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <img src="assets/img/tecnologia2.jpg" class="d-block w-100" alt="tecnologia2">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/tecnologia3.jpg" class="d-block w-100" alt="tecnologia3">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-m-5">
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#Moda" role="tab" aria-controls="Moda" aria-selected="true">Moda</a>
+        
+        <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#Agricultura" role="tab" aria-controls="Agricultura" aria-selected="false">Agricultura</a>
+        <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#Tecnologia" role="tab" aria-controls="Tecnologia" aria-selected="false">Tecnologia</a>
+      </div>
+    </nav>
+  </div>
+</div>
+          
+          
+          
+        </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+<!-- contenedor de nosotros  -->
+
+          <div id="nosotros">
+            <div class="container">
+              <h3><b>Nosotros</b> </h3>
+              <p>Somos una empresa dedicada a disminuir los intermediarios <br> entre vendedores y compradores con el fin de aumentar <br> las ganancias y la productividad </p>
+              <div class="row">
+                <div data-aos="zoom-in"   data-aos-duration="3000"  class="col-md-4">
+                  <img src="assets/img/nosotros-img0000.png" alt="usuario">
+                  <p>Jully Andrea Rosero<br>
+                    3114010815 <br>
+                    rosero.rl1997@gmail.com
+                  </p>
+                </div>
+                <div  data-aos="zoom-in"   data-aos-duration="3000" class="col-md-4">
+                  <img src="assets/img/nosotros-img0000.png" alt="usuario">
+                  <p>Carlos Alberto Silva <br> 
+                    3118043435 <br>
+                    crsilva@hotmail.com
+                    </p>
+                </div>
+                <div data-aos="zoom-in"   data-aos-duration="3000" class="col-md-4">
+                  <img src="assets/img/nosotros-img0000.png" alt="usuario">
+                  <p>Luis Fabian Pinilla <br>
+                    3133333636 <br>
+                    ingefbi@gmail.com
+                    </p>
+                </div>
+                </div>
+                <div class="row">
+                  <div data-aos="zoom-in"   data-aos-duration="3000"class="col-md-6">
+                  <img src="assets/img/nosotros-img0000.png" alt="usuario">
+                  <p>Leider Iván Menjura <br>
+                    3222628859 <br>
+                     leidermenjura75@gmail.com
+                    </p>
+                </div>
+                <div   data-aos="zoom-in"   data-aos-duration="3000"       class="col-md-6">
+                  <img src="assets/img/nosotros-img0000.png" alt="usuario">
+                  <p>Ernesto Arturo Martínez <br>
+                    3212013159 <br>
+                    arturomartinez.1344@gmail.com
+                    </p>
+            </div>
+                </div>
+        
+              </div>
+          </div>
+      <!-- contenedor de contactos -->
+          
+      
+      <footer>
+
+        <div id="Contactenos">
+    <div class="Contactenos"></div>
+        <div class="container">
+        <a href=""> <u> Trabaja con nosotros</u></a>
+        <a href=""> <u> Terminos y condiciones</u></a>
+        <div class="redes">
+          <img src="assets/img/facebook0000.png" alt="facebook">
+          <img src="assets/img/twitter0000.png" alt="twitter">
+          <img src="assets/img/instagram0000.png" alt="instagram">
+          <img src="assets/img/correo0000.png" alt="correo">
+        </div>
+      </div>
+    </div>
+    </div>
+      </footer>
+  
+  
+
+      
+
+
+
+
+ <!-- JS, Popper.js, and jQuery -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+ 
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+ <script src="js/smooth-scroll.min.js"></script>
+ 
+ <script src="js/main.js"></script>
+
+</body>
+
+</html>
